@@ -1,0 +1,29 @@
+# Calculadora de Idade
+
+Este projeto é uma **Calculadora de Idade** simples e elegante feita com HTML, CSS e JavaScript, utilizando a biblioteca Luxon para manipulação de datas.
+
+## Funcionalidades
+
+- Permite ao usuário inserir sua data de nascimento no formato **DD/MM/AAAA**.
+- Calcula sua idade exata em **anos, meses e dias**, considerando até a data e hora atuais.
+- Possui máscara automática para facilitar o preenchimento da data corretamente.
+- Design responsivo e moderno, adaptado para dispositivos móveis e desktop.
+- Mensagens de validação amigáveis, indicando, por exemplo, se a data está em formato incorreto ou está no futuro.
+
+## Como funciona
+
+O usuário digita sua data de nascimento no campo indicado e clica em "Calculate". Imediatamente, o site valida o campo, aplica o formato correto e, caso esteja tudo certo, calcula a diferença entre a data de nascimento e a data atual, mostrando o resultado detalhado.
+
+A manipulação e o cálculo das datas são realizados pelo Luxon, uma biblioteca moderna e poderosa para datas em JavaScript.
+
+## Tecnologias utilizadas
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **[Luxon](https://moment.github.io/luxon/)**
+
+## Autor
+
+Pedro Vinícius Silva Magalhães
+
