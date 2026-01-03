@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Essential Meta Tags -->
+    <meta name="description" content="Calculadora de Idade rápida e precisa usando JavaScript e Luxon. Descubra sua idade exata em anos, meses e dias." />
+    <meta name="keywords" content="calculadora de idade, age calculator, javascript, luxon, anos, meses, dias" />
+    <meta name="author" content="Pedro Vinícius Silva Magalhães" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Calculadora de Idade" />
+    <meta property="og:description" content="Descubra rapidamente sua idade exata em anos, meses e dias com esta calculadora moderna feita em JavaScript e Luxon." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-domain.com/" />
+    <meta property="og:image" content="https://your-domain.com/og-image.png" />
+    <meta property="og:site_name" content="Calculadora de Idade" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Calculadora de Idade" />
+    <meta name="twitter:description" content="Descubra sua idade precisa em anos, meses e dias com esta elegante calculadora online." />
+    <meta name="twitter:image" content="https://your-domain.com/og-image.png" />
+
+    <title>Calculadora De Idade</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Calculadora de Idade</h1>
+
+      <form id="ageForm" action="javascript:void(0)">
+        <label for="birthdate">Enter your birth date:</label>
+        <input type="text" id="birthdate" placeholder="DD/MM/YYYY" />
+
+        <button type="submit">Calculate</button>
+      </form>
+
+      <p id="result"></p>
+      <footer style="margin-top: 32px; font-size: 0.98rem; color: #606c38">
+        Created by Pedro Vinícius Silva Magalhães
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
